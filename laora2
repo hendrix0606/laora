@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quer me beijar?</title>
+<style>
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 28px;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button {
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer; /* Adicionado para mostrar que é clicável */
+}
+#noButton {
+    pointer-events: auto; /* Alterado para permitir eventos no botão */
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <h2>Quer me beijar?</h2>
+    <button id="yesButton">S</button>
+    <button id="noButton">N</button>
